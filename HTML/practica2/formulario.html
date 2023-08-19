@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="formulario.html">Formulario</a>
+    </div>
+
+    <h1>Contacto</h1>
+    <form action="formulario.html" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required/><br/>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required/><br/>
+
+        <label>Genero:</label><br/>
+        <input type="radio" id="genero-m" name="genero" value="masculino"/>
+        <label for="genero">masculino</label><br/>
+        <input type="radio" id="genero-f" name="genero" value="femenino"/>
+        <label for="femenino">femenino</label><br/>
+
+        <label for="contrasena">Contrasena:</label>
+        <input type="password" id="contrasena" name="contrasena"/><br/>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad">
+            <option value="guadalajara">Guadalajara</option>
+            <option value="zapopan">Zapopan</option>
+            <option value="tonala">Tonalá</option>
+            <option value="otra">Otra</option>
+        </select><br>
+
+        <input type="checkbox" id="interesado" name="interesado" value="si">
+        <label for="interesado">Me interesa contratarte</label><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

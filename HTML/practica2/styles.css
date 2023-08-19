@@ -1,0 +1,24 @@
+table,
+th,
+td{
+    border: 1px solid black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav{
+    background-color:darkgray
+}
+
+img{
+    align-items: center;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+button{
+    color: blue;
+}
